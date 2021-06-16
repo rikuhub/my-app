@@ -1,0 +1,39 @@
+.closing_folder{
+    position: absolute;
+    max-width: 500px;
+    margin       : auto;
+    width        : 21vw;
+    height       : 19vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background   : linear-gradient(to bottom, #0059b3, rgba(0, 127, 255, 0.73));
+    border-style: solid;
+    border-radius: 10%;
+    border-color: #007fff;
+    z-index: 2;
+}
+
+.closing_folder img{
+    width: 15vw;
+    height: 15vw;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    z-index: 1;
+}
+
+.box{
+    position     : absolute;
+    margin       : auto;
+    width        : 20vw;
+    height       : 15vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background   : linear-gradient(to bottom, rgba(0, 127, 255, 0.73), rgba(0, 127, 255, 0.73));
+    border-radius: 10%;
+    z-index: 3;
+}
+

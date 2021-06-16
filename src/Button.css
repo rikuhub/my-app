@@ -1,0 +1,23 @@
+.Button {
+    width: 5vw;
+    height: 5vw;
+    background: linear-gradient(to bottom, rgba(0, 127, 255, 0.73), #007fff);
+    z-index: 30;
+    position: relative;
+    padding: 10px;
+    color: white;
+    border-radius: 100vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button a {
+    font-size: 5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}

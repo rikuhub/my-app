@@ -1,17 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './Button.css';
 
 function Button() {
     function handleClick(e) {
         e.preventDefault();
         console.log('The link was clicked.');
-        window.location.href = 'https://github.com';
+        window.location.href = '';
     }
 
     return (
         <div className="Button">
             <a onClick={handleClick}>
-                about me
+                +
             </a>
         </div>
     );
