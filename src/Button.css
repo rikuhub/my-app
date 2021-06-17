@@ -1,27 +1,16 @@
-.Button {
-    width: 5vw;
-    height: 5vw;
-    background: linear-gradient(to bottom, rgba(0, 127, 255, 0.73), #007fff);
-    z-index: 30;
-    position: relative;
-    padding: 10px;
-    color: white;
-    border-radius: 100vh;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .Button button {
-    font-size: 5vw;
-    border: none;  /* 枠線を消す */
-    outline: none; /* クリックしたときに表示される枠線を消す */
-    background: transparent; 
+    width: 7vw;
+    height: 7vw;
+    font-size: 4vw;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(0, 127, 255, 0.73), #007fff);
     color:white;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    bottom: 10vh;
+    right: 10vw;
+    z-index: 3;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
 }

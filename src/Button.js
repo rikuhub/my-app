@@ -8,42 +8,31 @@ class Button extends React.Component{
         super(props);
         this.state = {
             pages: false,
+            code: '＋'
         }
     }
 
     buttonForPages = () => {
         this.setState({
-            pages: !this.state.pages
+            pages: !this.state.pages,
         })
-        console.log("昨日してる")
+        this.state.pages?
+        this.setState({
+            code: "＋"
+        }):
+        this.setState({
+            code: "ー"
+        })
     }
 
     render(){
         return(
             <div className="Button">
-                <button onClick={() => this.buttonForPages()}>+</button>
-                <Pages pages={this.state.pages}/>
+                <button onClick={() => this.buttonForPages()}>{this.state.code}</button>
+                <Pages pages={this.state.pages} className="Pages"/>
             </div>
         )
     }
 }
-//<a onClick={(e) => handleClick(e)}>+</a>
-// const Button = (props) =>  {
-//     const [state, useState] = useState("")
-//     let evaluation = false;
-//     function handleClick(e) {
-//         e.preventDefault();
-//         console.log(evaluation);
-//         evaluation = true
-//     }
-//     return (
-//         <div className="Button">
-//             <a onClick={(e) => handleClick(e)}>
-//                 +
-//             </a>
-//             <Pages boolean={evaluation}/>
-//         </div>
-//     );
-// }
 
 export default Button;
