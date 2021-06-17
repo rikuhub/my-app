@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.16737cfc.chunk.css",
+    "main.js": "/my-app/static/js/main.81a887c9.chunk.js",
+    "main.js.map": "/my-app/static/js/main.81a887c9.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.5e006c54.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.5e006c54.js.map",
+    "static/js/2.5ddf9f0e.chunk.js": "/my-app/static/js/2.5ddf9f0e.chunk.js",
+    "static/js/2.5ddf9f0e.chunk.js.map": "/my-app/static/js/2.5ddf9f0e.chunk.js.map",
+    "static/js/3.11d3b74a.chunk.js": "/my-app/static/js/3.11d3b74a.chunk.js",
+    "static/js/3.11d3b74a.chunk.js.map": "/my-app/static/js/3.11d3b74a.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "static/css/main.16737cfc.chunk.css.map": "/my-app/static/css/main.16737cfc.chunk.css.map",
+    "static/js/2.5ddf9f0e.chunk.js.LICENSE.txt": "/my-app/static/js/2.5ddf9f0e.chunk.js.LICENSE.txt",
+    "static/media/Seminar.3b94a430.png": "/my-app/static/media/Seminar.3b94a430.png",
+    "static/media/ローランド.c083e2e1.jpg": "/my-app/static/media/ローランド.c083e2e1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e006c54.js",
+    "static/js/2.5ddf9f0e.chunk.js",
+    "static/css/main.16737cfc.chunk.css",
+    "static/js/main.81a887c9.chunk.js"
+  ]
+}
