@@ -9,12 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background   : linear-gradient(to bottom, #0059b3, rgba(0, 127, 255, 0.73));
-    border-style: solid;
-    border-radius: 10%;
-    border-color: #007fff;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
-    z-index: 2;
+    background   : transparent;
 }
 
 .closing_folder img{
@@ -31,15 +26,44 @@
 .box{
     position     : absolute;
     margin       : auto;
-    max-width: 304px;
+    max-width: 320px;
     max-height: 232px;
-    width        : 38vw;
+    width        : 40vw;
     height       : 29vw;
     left: 0;
     right: 0;
     bottom: 0;
-    background   : linear-gradient(to bottom, rgba(0, 127, 255, 0.73), rgba(0, 127, 255, 0.73));
-    border-radius: 10%;
+    background   : linear-gradient(to bottom, rgba(94, 174, 255, 0.73), rgba(0, 127, 255, 0.73));
+    border-radius: 20px 20px 20px 20px;
     z-index: 3;
 }
 
+.convex{
+    position: absolute;
+    max-width: 160px;
+    max-height: 264px;
+    margin       : auto;
+    width        : 20vw;
+    height       : 33vw;
+    left: 0;
+    right: 20;
+    bottom: 0;
+    background   : linear-gradient(to bottom, rgba(0, 93, 187, 0.73), rgba(0, 127, 255, 0.73));
+    border-radius: 20px 20px 0px 20px;
+    z-index: -1;
+}
+
+.urabox{
+    position: absolute;
+    max-width: 160px;
+    max-height: 248px;
+    margin       : auto;
+    width        : 20vw;
+    height       : 31vw;
+    left: 20;
+    right: 0;
+    bottom: 0;
+    background   : linear-gradient(to bottom, rgba(0, 93, 187, 0.73), rgba(0, 127, 255, 0.73));
+    border-radius: 0px 20px 20px 0px;
+    z-index: -1;
+}
