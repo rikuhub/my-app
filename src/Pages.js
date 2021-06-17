@@ -26,7 +26,7 @@ const Pages = (props) => {
     return (
         <div>
             {props.pages&&(
-            <div className="Pages">
+                <div className="Pages">
                 <div className="Github">
                     <a onClick={GithubClick}>
                         <img src={github}></img>
@@ -42,7 +42,7 @@ const Pages = (props) => {
                         <img src={qiitan}></img>
                     </a>
                 </div>
-            </div>
+                </div>
             )}
         </div>
     );

@@ -1,49 +1,57 @@
 .Pages{
     overflow: hidden;
     position: absolute;
-    bottom:10vh;
+    max-width: 400px;
     background: linear-gradient(to bottom, rgba(0, 127, 255, 0.73), #007fff);
     border-radius: 50px;
-    padding:0.5vw;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    bottom:0;
 }
 
 .Github, .Qiita{
     float: left;
+    max-width: 40px;
+    max-height: 40px;
     width: 5vw;
     height: 5vw;
     z-index: 30;
     position: relative;
-    padding: 10px;
+    padding: 1vw;
     background-color: white;
     border-radius: 100%;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3vw;
+    margin: 2vw;
     z-index: 2;
 }
 
 .Seminar {
     float: left;
+    max-width: 40px;
+    max-height: 40px;
     width: 5vw;
     height: 5vw;
     background-color: #74ABCA;
-    z-index: 30;
     position: relative;
-    padding: 10px;
+    padding: 1vw;
     color: white;
     border-radius: 100%;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3vw;
+    margin: 2vw;
     z-index: 2;
 }
 
 .Github img,.Seminar img, .Qiita img{
+    max-width: 48px;
+    max-height: 48px;
     width: 6vw;
     height: 6vw;
     position: absolute;
@@ -53,4 +61,7 @@
     transform: translateY(-50%) translateX(-50%);
     -webkit-transform: translateY(-50%) translateX(-50%);
     z-index: 2;
+}
+
+.Set{
 }

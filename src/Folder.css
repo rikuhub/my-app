@@ -1,9 +1,10 @@
 .closing_folder{
     position: absolute;
-    max-width: 500px;
+    max-width: 320px;
+    max-height: 280px;
     margin       : auto;
-    width        : 21vw;
-    height       : 19vw;
+    width        : 40vw;
+    height       : 35vw;
     top: 0;
     left: 0;
     right: 0;
@@ -17,8 +18,10 @@
 }
 
 .closing_folder img{
-    width: 15vw;
-    height: 15vw;
+    width: 25vw;
+    height: 25vw;
+    max-width: 200px;
+    max-height: 200px;
     border-style: solid;
     border-radius: 50%;
     border-color: white;
@@ -28,8 +31,10 @@
 .box{
     position     : absolute;
     margin       : auto;
-    width        : 20.5vw;
-    height       : 15vw;
+    max-width: 304px;
+    max-height: 232px;
+    width        : 38vw;
+    height       : 29vw;
     left: 0;
     right: 0;
     bottom: 0;
