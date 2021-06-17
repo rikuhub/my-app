@@ -12,6 +12,7 @@
     border-style: solid;
     border-radius: 10%;
     border-color: #007fff;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
     z-index: 2;
 }
 
@@ -27,7 +28,7 @@
 .box{
     position     : absolute;
     margin       : auto;
-    width        : 20vw;
+    width        : 20.5vw;
     height       : 15vw;
     left: 0;
     right: 0;

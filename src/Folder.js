@@ -1,6 +1,7 @@
 import './Folder.css';
 import me from './ローランド.jpg';
 
+
 function Folder() {
   return (
       <div className="closing_folder">

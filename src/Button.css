@@ -13,8 +13,12 @@
     align-items: center;
 }
 
-.Button a {
+.Button button {
     font-size: 5vw;
+    border: none;  /* 枠線を消す */
+    outline: none; /* クリックしたときに表示される枠線を消す */
+    background: transparent; 
+    color:white;
     position: absolute;
     top: 50%;
     left: 50%;
