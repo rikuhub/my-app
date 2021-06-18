@@ -1,13 +1,13 @@
 import './App.css';
 import Button from './Button';
-import Folder from './Folder';
+import ParentFolder from './ParentFolder';
 
 function App(props){
   
   return (
     <div className="App">
         <Button/>
-        <Folder/>
+        <ParentFolder/>
         <div id="folder"></div>
     </div>
   );
