@@ -6,21 +6,9 @@ const Photo = (props) => {
     return (
         <div>
             {props.img?(
-                <div>
-                <div className="closing_folder">
-                    <div className="box"></div>
-                    <div className="convex"></div>
-                    <div className="urabox"></div>
-                    <img src={me} className="frontimg"></img>
-                </div>
-                </div>
+            <img src={me} className="frontimg"></img>
             ):(
-                <div className="closing_folder">
-                    <div className="box"></div>
-                    <div className="convex"></div>
-                    <div className="urabox"></div>
-                    <img src={me} className="backimg"></img>
-                </div>
+            <img src={me} className="backimg"></img>   
             )}
         </div>
     );

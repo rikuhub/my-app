@@ -20,9 +20,14 @@ class Folder extends React.Component{
 
   render(){
       return(
-          <a onClick={() => this.buttonForImage()}>
+        <a onClick={() => this.buttonForImage()}>
+          <div className="closing_folder">
+            <div className="box"></div>
+            <div className="convex"></div>
+            <div className="urabox"></div>
             <Photo img={this.state.img} className="Photo"/>
-          </a>
+          </div>
+        </a>
       )
   }
 }
