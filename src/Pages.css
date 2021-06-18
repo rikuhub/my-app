@@ -15,18 +15,18 @@
     float: left;
     max-width: 40px;
     max-height: 40px;
-    width: 5vw;
-    height: 5vw;
+    width: 4vh;
+    height: 4vh;
     z-index: 30;
     position: relative;
-    padding: 1vw;
+    padding: 1vh;
     background-color: white;
     border-radius: 100%;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2vw;
+    margin: 2vh;
     z-index: 2;
 }
 
@@ -34,26 +34,26 @@
     float: left;
     max-width: 40px;
     max-height: 40px;
-    width: 5vw;
-    height: 5vw;
+    width: 4vh;
+    height: 4vh;
     background-color: #74ABCA;
     position: relative;
-    padding: 1vw;
+    padding: 1vh;
     color: white;
     border-radius: 100%;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2vw;
+    margin: 2vh;
     z-index: 2;
 }
 
 .Github img,.Seminar img, .Qiita img{
     max-width: 48px;
     max-height: 48px;
-    width: 6vw;
-    height: 6vw;
+    width: 5vh;
+    height: 5vh;
     position: absolute;
     top: 50%;
     left: 50%;
